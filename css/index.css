@@ -283,6 +283,12 @@
     padding-top: 50px;
 }
 
+@media (min-width: 992px) {
+    .news {
+        padding-top: 100px;
+    }
+}
+
 .news-card-item {
     margin-bottom: 20px;
 }
@@ -324,6 +330,12 @@
 /* Feedback START */
 .feedback {
     padding-top: 50px;
+}
+
+@media (min-width: 992px) {
+    .feedback {
+        padding-top: 100px;
+    }
 }
 
 .main-btn {
@@ -520,26 +532,113 @@
 /* Footer END */
 
 /* Courses Page START */
-.breadcrumb {
+.breadcrumb img {
+    margin: 0 10px;
 }
-.courser__inner {
+
+.breadcrumb a {
+    color: #000;
 }
-.courses__headline {
-}
-.title-main {
-}
+
 .courses__filter {
-    /* margin-top: 20px; */
     margin-bottom: 20px;
 }
+
 .courses__filter-item {
     display: inline-block;
     padding: 10px 20px;
     margin-right: 10px;
+    margin-bottom: 5px;
 
     font-size: 20px;
     color: #000;
     border: 1px solid #000;
     border-radius: 20px;
+
+    /* animation-duration: 2s; */
+}
+
+@media (min-width: 992px) {
+    .courses__filter-item {
+        margin-bottom: 0;
+    }
+
+    .courses__filter-item:hover {
+        background-color: var(--accient-color);
+        color: #fff;
+        border: 1px solid #fff;
+    }
 }
 /* Courses Page END */
+
+/* Course Page START */
+
+/* Course Page END */
+
+/* Lesson Page START */
+.lesson {
+    padding-top: 50px;
+}
+
+@media (min-width: 992px) {
+    .lesson {
+        padding-top: 100px;
+    }
+}
+
+.lesson__inner {
+    margin-bottom: 40px;
+}
+
+.lesson__inner-nav p {
+    font-weight: 500;
+}
+
+.row {
+}
+.courses__headline {
+}
+.title-main {
+}
+.lesson__content-btn {
+    margin-bottom: 20px;
+}
+.lesson__content-btn a {
+    font-weight: 500;
+    text-decoration: underline;
+}
+.lesson__content p {
+    text-align: justify;
+}
+.lesson__control {
+    text-align: center;
+}
+.control-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #000;
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.control-btn-back {
+    color: #000;
+
+    margin: 0 20px;
+}
+
+.content-modal-body {
+    padding-top: 0;
+}
+
+.content-modal-body-list {
+}
+.content-modal-body-list-item a {
+    color: #000;
+}
+.content-modal-body-list-item {
+    margin-bottom: 10px;
+}
+/* Lesson Page END */
