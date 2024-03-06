@@ -594,25 +594,23 @@
     font-weight: 500;
 }
 
-.row {
-}
-.courses__headline {
-}
-.title-main {
-}
 .lesson__content-btn {
     margin-bottom: 20px;
 }
+
 .lesson__content-btn a {
     font-weight: 500;
     text-decoration: underline;
 }
+
 .lesson__content p {
     text-align: justify;
 }
+
 .lesson__control {
     text-align: center;
 }
+
 .control-btn {
     width: 40px;
     height: 40px;
@@ -633,12 +631,92 @@
     padding-top: 0;
 }
 
-.content-modal-body-list {
-}
 .content-modal-body-list-item a {
     color: #000;
 }
+
 .content-modal-body-list-item {
     margin-bottom: 10px;
 }
 /* Lesson Page END */
+
+/* Tutors Page START */
+.tutors {
+    padding-top: 50px;
+}
+
+@media (min-width: 992px) {
+    .tutors {
+        padding-top: 100px;
+    }
+}
+
+.tutors__card {
+    margin-bottom: 20px;
+}
+
+.tutor__card-box {
+    padding: 22px;
+
+    background-color: #F9FAFC;
+    border: 1px solid #E1E9F8;
+    border-radius: 12px;
+}
+
+.tutor__card-image {
+    padding-top: 122%;
+    margin-bottom: 20px;
+}
+
+.tutor__card-image img {
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.tutor__card-about {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tutor__card-about-title {
+    font-size: 32px;
+    font-weight: 600;
+    color: #000;
+}
+
+.tutor__card-about-desc {
+    color: #38393E;
+}
+
+.tutor__card-form {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.tutor__card-form-input {
+    padding: 18px 24px;
+    border-radius: 100px;
+}
+
+.tutor__card-form-input::placeholder {
+    color: #C5C5C5;
+}
+
+.tutor__card-form-btn {
+    width: 48px;
+    height: 48px;
+
+    background-color: #4785FF;
+    border-radius: 50%;
+
+    position: absolute;
+    right: 8px;
+    top: 7px;
+}
+
+.tutor__card-form-btn:hover {
+    background-color: #3578ff;
+}
+
+/* Tutors Page END */
