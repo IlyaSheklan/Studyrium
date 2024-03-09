@@ -775,3 +775,45 @@ textarea.custom-form {
     resize: none;
 }
 /* Tutor Page END */
+
+/* Contacts Page START */
+.contacts {
+    padding-top: 50px;
+}
+
+@media (min-width: 992px) {
+    .contacts {
+        padding-top: 100px;
+    }
+}
+
+.contacts__list-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.contacts__list-item a {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+
+    margin-bottom: 5px;
+}
+
+@media (min-width: 1200px) {
+    .contacts__list-item a {
+        font-size: 24px;
+
+        margin-bottom: 10px;
+    }
+
+    .contacts__list-item a:hover {
+        color: var(--accient-color);
+    }
+
+    .contacts__list-item span {
+        font-size: 20px;
+    }
+}
+/* Contacts Page END */
