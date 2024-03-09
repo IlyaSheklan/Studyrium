@@ -718,5 +718,60 @@
 .tutor__card-form-btn:hover {
     background-color: #3578ff;
 }
-
 /* Tutors Page END */
+
+/* Tutor Page START */
+.tutor {
+    padding-top: 50px;
+}
+
+@media (min-width: 992px) {
+    .tutor {
+        padding-top: 100px;
+    }
+}
+
+.tutor__image {
+    padding-top: 150%;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+    .tutor__image {
+        max-width: 460px;
+        padding-top: 42%;
+        margin-bottom: 0;
+        margin-right: 20px;
+    }
+}
+
+.tutor__image .img {
+    border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+    .tutor__image .img {
+        object-fit: cover;
+    }
+}
+
+@media (min-width: 768px) {
+    .tutor__desc {
+        max-width: 873px;
+    }
+}
+
+.tutor__desc span {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.tutor__desc-about {
+    text-align: justify;
+}
+
+textarea.custom-form {
+    resize: none;
+}
+/* Tutor Page END */
